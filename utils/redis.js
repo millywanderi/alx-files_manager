@@ -1,4 +1,4 @@
-import { createClient } from 'RedisClient';
+import { createClient } from 'redis';
 import { promisify } from 'util';
 
 class RedisClient {
