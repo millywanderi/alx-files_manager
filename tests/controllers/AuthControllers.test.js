@@ -3,7 +3,7 @@ const chaiHttp = require('chai-http');
 const sinon = require('sinon');
 const sha1 = require('sha1');
 const { v4: uuidv4 } = require('uuid');
-constAuthController = require('./authController');
+const AuthController = require('./authController');
 const RedisClient = require('../utils/redis');
 const DBClient = require('../utils/db');
 
